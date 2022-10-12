@@ -32,6 +32,22 @@
             <dependent_value/>
             <element>u_requested_type</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Your Department Choice</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 06:54:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>your_choice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_requested_type</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Facilities</label>
             <language>en</language>
@@ -59,22 +75,6 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>legal</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_requested_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Your Department Choice</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-11 06:54:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <value>your_choice</value>
         </sys_choice>
     </sys_choice>
 </record_update>
