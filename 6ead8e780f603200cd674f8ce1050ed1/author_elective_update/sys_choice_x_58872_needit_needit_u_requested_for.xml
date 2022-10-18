@@ -60,5 +60,21 @@
             <sys_domain_path>/</sys_domain_path>
             <value>Choice 2</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_requested_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fred Luddy</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-18 14:26:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>fred luddy</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
