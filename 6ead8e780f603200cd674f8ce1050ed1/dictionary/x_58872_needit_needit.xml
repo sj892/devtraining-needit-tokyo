@@ -3,7 +3,12 @@
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="joe employee" label="Requested for" mandatory="true" max_length="40" name="u_requested_for" type="string">
             <choice>
+                <element inactive_on_update="false" label="Adela Cervantsz" sequence="0" value="Adela Cervantsz"/>
+                <element inactive_on_update="false" label="Aileen Mottern" sequence="0" value="Aileen Mottern"/>
+                <element inactive_on_update="false" label="Bryan Rovell" sequence="0" value="Bryan Rovell"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="Danny Dales" sequence="0" value="Danny Dales"/>
+                <element inactive_on_update="false" label="Nathanial Phoenix" sequence="0" value="Nathanial Phoenix"/>
                 <element inactive_on_update="false" label="System Administrator" sequence="0" value="joe employee"/>
                 <element inactive_on_update="false" label="Beth Anglin" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Fred Luddy" sequence="2" value="fred luddy"/>
